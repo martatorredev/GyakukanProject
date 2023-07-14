@@ -1,0 +1,83 @@
+{
+	"version": 2,
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "\"Source Sans Pro\", sans serif",
+					"name": "Source Sans Pro",
+					"slug": "source-sans-pro",
+					"fontFace": [
+						{
+							"fontFamily": "Source Sans Pro",
+							"fontWeight": "300 400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/source-sans-pro-v21-latin-regular.woff2" ]
+						},
+						{
+							"fontFamily": "Source Sans Pro",
+							"fontWeight": "300 400",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/source-sans-pro-v21-latin-italic.woff2" ]
+						}
+					]
+				},
+                {
+					"fontFamily": "\"Oswald\", sans serif",
+					"name": "Oswald",
+					"slug": "oswald",
+					"fontFace": [
+						{
+							"fontFamily": "Oswald",
+							"fontWeight": "300 400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/oswald-v49-latin-regular.woff2" ]
+						},
+						{
+							"fontFamily": "Oswald",
+							"fontWeight": "600 700 800",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/oswald-v49-latin-700.woff2" ]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Montserrat\", sans serif",
+					"name": "Montserrat",
+					"slug": "montserrat",
+					"fontFace": [
+						{
+							"fontFamily": "Montserrat",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/montserrat-v25-latin-regular.woff2" ]
+						}
+					]
+				}
+			]
+		},
+        "blocks": {
+			"core/site-title": {
+				"typography": {
+					"fontFamilies": [
+						{
+							"fontFamily": "Oswald, sans-serif",
+							"slug": "oswald",
+							"name": "Oswald",
+                            "src": [ "file:./assets/oswald-v49-latin-700.woff2" ]
+						}
+					]
+				}
+			}
+		},
+		"layout": {
+			"contentSize": "1140px",
+			"wideSize": "1910px"
+		}
+	}
+}
